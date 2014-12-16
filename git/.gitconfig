@@ -1,0 +1,21 @@
+
+[credential]
+
+[core]
+	excludesfile = ~/.gitignore
+
+[hub]
+protocol = https
+[user]
+	name = Justin Rolston
+	email = jrolston@covermymeds.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
+[color]
+	ui = auto

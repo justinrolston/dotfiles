@@ -1,8 +1,13 @@
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
+#Go Lang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 source ~/.aliasfile
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
+
 #Color codes
 clr0='\[\e[0;30m\]'
 clr1='\[\e[0;31m\]'

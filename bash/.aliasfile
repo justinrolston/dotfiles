@@ -3,3 +3,6 @@ alias start-redis='redis-server /usr/local/etc/redis.conf'
 
 alias bec='bundle exec cucumber'
 alias be='bundle exec'
+
+
+alias flushdns='sudo discoveryutil udnsflushcaches'

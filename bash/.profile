@@ -4,6 +4,9 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+#Used by Webdrivercss
+export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
+
 source ~/.aliasfile
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
